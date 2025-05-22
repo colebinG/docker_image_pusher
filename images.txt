@@ -1,6 +1,16 @@
-nginx
+#nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
+mysql:5.7
+redislabs/redismod:latest
+rediscommander/redis-commander:latest
+apacherocketmq/rocketmq:4.5.0
+elasticsearch:7.14.2
+logstash:7.14.2
+kibana:7.14.2
+bladex/sentinel-dashboard
+nacos/nacos-server:2.0.3
+
