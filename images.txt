@@ -14,4 +14,5 @@ kibana:7.14.2
 bladex/sentinel-dashboard
 nacos/nacos-server:2.0.3
 sonatype/nexus3
-
+minio/minio
+nginx:1.19.2-alpine
